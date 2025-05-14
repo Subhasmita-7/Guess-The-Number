@@ -1,0 +1,92 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 300px;
+  max-width: 750px;
+  min-width: 480px;
+  margin: 0 auto;
+  background-color: hwb(332 13% 16%);
+  
+}
+
+.lastResult {
+  color: rgb(57, 16, 16);
+  padding: 7px;
+}
+
+.guesses {
+  color: #f8ebf5;
+  padding: 7px;
+}
+
+button {
+  background-color: hsl(334, 78%, 51%);
+  color: #fff;
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 30px;
+  border-style: none;
+  margin-top: 30px;
+  /* margin-left: 50px; */
+}
+
+#subt {
+  background-color: hsl(305, 30%, 45%);
+  color: hsl(0, 100%, 100%);
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  border-style: none;
+  margin-top: 50px;
+  /* margin-left: 75px; */
+}
+
+#guessField {
+  color: lch(64.76% 26.55 322.84);
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  border-style: none;
+  margin-top: 25px;
+
+  /* margin-left: 50px; */
+  border: 5px solid hsl(180, 76%, 16%);
+  text-align: center;
+}
+
+#guess {
+  font-size: 55px;
+  /* margin-left: 90px; */
+  margin-top: 120px;
+  color: hsl(0, 14%, 11%);
+}
+
+.guesses {
+  background-color: hsl(293, 73%, 19%);
+}
+
+#wrapper {
+  box-sizing: border-box;
+  text-align: center;
+  width: 550px;
+  height: 650px;
+  background-color: lab(78.68% 28.42 -16.02);
+  color: hsl(0, 0%, 0%);
+  font-size: 25px;
+}
+
+h1 {
+  background-color: hsl(332, 75%, 51%);
+  border: 5px solid hsl(180, 76%, 16%);
+  color: hsl(0, 64%, 9%);
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+}
